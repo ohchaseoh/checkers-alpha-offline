@@ -194,7 +194,6 @@ public class MainActivity extends AppCompatActivity {
                         {null, ibtn_6_1, null, ibtn_6_3, null, ibtn_6_5, null, ibtn_6_7},
                         {ibtn_7_0, null, ibtn_7_2, null, ibtn_7_4, null, ibtn_7_6, null}};
 
-        /*
         checkerList = new Checker[][]
                 {{null, new RedChecker(0,1), null, new RedChecker(0,3), null, new RedChecker(0,5), null, new RedChecker(0,7)},
                         {new RedChecker(1,0), null, new RedChecker(1,2),null, new RedChecker(1,4), null, new RedChecker(1,6), null},
@@ -206,7 +205,6 @@ public class MainActivity extends AppCompatActivity {
                         {new BlackChecker(7,0), null, new BlackChecker(7,2),null, new BlackChecker(7,4), null, new BlackChecker(7,6), null}
                 };
 
-         */
         updateAllButtons();
         disableButtons();
     }
