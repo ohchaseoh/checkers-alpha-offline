@@ -5,6 +5,9 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 import java.util.ArrayList;
 
 //TODO 1. Edit DisableAllbuttonButOne or update
