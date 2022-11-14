@@ -7,4 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="checker_bg">#FF35654D</color>
+    <color name="checker_bg2">#FF5E3E23</color>
+    <color name="checker_bg3">#FF412C1A</color>
+    <color name="checker_red">#FFA22C29</color>
+    <color name="checker_red_piece">#71201E</color>
+    <color name="checker_black">#FF0A100D</color>
+    <color name="checker_black_piece">#252525</color>
 </resources>

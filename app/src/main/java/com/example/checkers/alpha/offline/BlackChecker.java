@@ -16,7 +16,6 @@ public class BlackChecker extends Checker {
         super(blackChecker);
     }
 
-
     @Override
     public ArrayList<int[]> getMove(Checker[][] checkerList){
         possibleMove = new ArrayList<>();
@@ -180,8 +179,6 @@ public class BlackChecker extends Checker {
             }
         }
     }
-
-
 
     @Override
     public ArrayList<int[]> getMove2(Checker[][] checkerList){
