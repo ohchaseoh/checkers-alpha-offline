@@ -11,7 +11,7 @@
     <color name="checker_bg2">#FF5E3E23</color>
     <color name="checker_bg3">#FF412C1A</color>
     <color name="checker_red">#FFA22C29</color>
-    <color name="checker_red_piece">#71201E</color>
+    <color name="checker_red_piece">#FF71201E</color>
     <color name="checker_black">#FF0A100D</color>
-    <color name="checker_black_piece">#252525</color>
+    <color name="checker_black_piece">#FF252525</color>
 </resources>
