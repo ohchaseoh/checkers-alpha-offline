@@ -2,11 +2,11 @@ package com.example.checkers.alpha.offline;
 
 import com.example.checkers.alpha.offline.Game;
 import com.example.checkers.alpha.offline.GameMainActivity;
-import com.example.checkers.alpha.offline.GameFramework.actionMessage.GameAction;
-import com.example.checkers.alpha.offline.GameFramework.infoMessage.BindGameInfo;
-import com.example.checkers.alpha.offline.GameFramework.infoMessage.GameInfo;
-import com.example.checkers.alpha.offline.GameFramework.utilities.NetworkObjectPasser;
-import com.example.checkers.alpha.offline.GameFramework.utilities.Logger;
+import com.example.checkers.alpha.offline.GameAction;
+import com.example.checkers.alpha.offline.BindGameInfo;
+import com.example.checkers.alpha.offline.GameInfo;
+import com.example.checkers.alpha.offline.NetworkObjectPasser;
+import com.example.checkers.alpha.offline.Logger;
 
 /**
  * A Player object that is used as a proxy for the real player that is on another

@@ -26,14 +26,14 @@ import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.TabHost.TabSpec;
-import com.example.checkers.alpha.offline.GameFramework.gameConfiguration.GameConfig;
-import com.example.checkers.alpha.offline.GameFramework.gameConfiguration.GamePlayerType;
-import com.example.checkers.alpha.offline.GameFramework.infoMessage.GameState;
+import com.example.checkers.alpha.offline.GameConfig;
+import com.example.checkers.alpha.offline.GamePlayerType;
+import com.example.checkers.alpha.offline.GameState;
 import com.example.checkers.alpha.offline.GamePlayer;
-import com.example.checkers.alpha.offline.GameFramework.utilities.IPCoder;
-import com.example.checkers.alpha.offline.GameFramework.utilities.MessageBox;
-import com.example.checkers.alpha.offline.GameFramework.utilities.Logger;
-import com.example.checkers.alpha.offline.GameFramework.utilities.Saving;
+import com.example.checkers.alpha.offline.IPCoder;
+import com.example.checkers.alpha.offline.MessageBox;
+import com.example.checkers.alpha.offline.Logger;
+import com.example.checkers.alpha.offline.Saving;
 import com.example.checkers.alpha.offline.R;
 
 /**

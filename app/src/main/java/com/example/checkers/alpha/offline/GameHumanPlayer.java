@@ -1,17 +1,17 @@
 package com.example.checkers.alpha.offline;
 
-import com.example.checkers.alpha.offline.GameFramework.actionMessage.GameOverAckAction;
-import com.example.checkers.alpha.offline.GameFramework.actionMessage.MyNameIsAction;
-import com.example.checkers.alpha.offline.GameFramework.actionMessage.ReadyAction;
-import com.example.checkers.alpha.offline.GameFramework.infoMessage.BindGameInfo;
-import com.example.checkers.alpha.offline.GameFramework.infoMessage.GameInfo;
-import com.example.checkers.alpha.offline.GameFramework.infoMessage.GameOverInfo;
-import com.example.checkers.alpha.offline.GameFramework.infoMessage.StartGameInfo;
-import com.example.checkers.alpha.offline.GameFramework.infoMessage.TimerInfo;
-import com.example.checkers.alpha.offline.GameFramework.utilities.GameTimer;
-import com.example.checkers.alpha.offline.GameFramework.utilities.Logger;
-import com.example.checkers.alpha.offline.GameFramework.utilities.MessageBox;
-import com.example.checkers.alpha.offline.GameFramework.utilities.Tickable;
+import com.example.checkers.alpha.offline.GameOverAckAction;
+import com.example.checkers.alpha.offline.MyNameIsAction;
+import com.example.checkers.alpha.offline.ReadyAction;
+import com.example.checkers.alpha.offline.BindGameInfo;
+import com.example.checkers.alpha.offline.GameInfo;
+import com.example.checkers.alpha.offline.GameOverInfo;
+import com.example.checkers.alpha.offline.StartGameInfo;
+import com.example.checkers.alpha.offline.TimerInfo;
+import com.example.checkers.alpha.offline.GameTimer;
+import com.example.checkers.alpha.offline.Logger;
+import com.example.checkers.alpha.offline.MessageBox;
+import com.example.checkers.alpha.offline.Tickable;
 
 import android.content.DialogInterface;
 import android.graphics.Color;

@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 import com.example.checkers.alpha.offline.Game;
 
+
 /**
  * An informational message that is sent from the game to a player.  The
  * most common information will probably be the state of the game (GameState),

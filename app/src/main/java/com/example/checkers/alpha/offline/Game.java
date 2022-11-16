@@ -1,7 +1,7 @@
 package com.example.checkers.alpha.offline;
 
-import com.example.checkers.alpha.offline.GameFramework.actionMessage.GameAction;
-import com.example.checkers.alpha.offline.GameFramework.infoMessage.GameState;
+import com.example.checkers.alpha.offline.GameAction;
+import com.example.checkers.alpha.offline.GameState;
 import com.example.checkers.alpha.offline.GamePlayer;
 
 /**

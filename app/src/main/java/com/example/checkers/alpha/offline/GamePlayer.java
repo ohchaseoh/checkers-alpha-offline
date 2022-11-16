@@ -1,7 +1,7 @@
 package com.example.checkers.alpha.offline;
 
 import com.example.checkers.alpha.offline.GameMainActivity;
-import com.example.checkers.alpha.offline.GameFramework.infoMessage.GameInfo;
+import com.example.checkers.alpha.offline.GameInfo;
 
 /**
  * A player who plays a (generic) game. Each class that implements a player for

@@ -3,13 +3,13 @@ package com.example.checkers.alpha.offline;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import com.example.checkers.alpha.offline.GameFramework.actionMessage.GameAction;
-import com.example.checkers.alpha.offline.GameFramework.infoMessage.GameInfo;
-import com.example.checkers.alpha.offline.GameFramework.infoMessage.GameState;
+import com.example.checkers.alpha.offline.GameAction;
+import com.example.checkers.alpha.offline.GameInfo;
+import com.example.checkers.alpha.offline.GameState;
 import com.example.checkers.alpha.offline.GamePlayer;
-import com.example.checkers.alpha.offline.GameFramework.utilities.IPCoder;
-import com.example.checkers.alpha.offline.GameFramework.utilities.NetworkObjectPasser;
-import com.example.checkers.alpha.offline.GameFramework.utilities.Logger;
+import com.example.checkers.alpha.offline.IPCoder;
+import com.example.checkers.alpha.offline.NetworkObjectPasser;
+import com.example.checkers.alpha.offline.Logger;
 
 /**
  * A Game object that is used as a proxy for the real game that is on another
