@@ -25,8 +25,8 @@
                 android:background="@color/checker_black"
                 android:clickable="false"
                 android:contentDescription="@string/app_name"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_0_1"
@@ -38,8 +38,8 @@
                 android:contentDescription="@string/app_name"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_0_2"
@@ -48,8 +48,8 @@
                 android:background="@color/checker_black"
                 android:clickable="false"
                 android:contentDescription="@string/app_name"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_0_3"
@@ -61,8 +61,8 @@
                 android:contentDescription="@string/app_name"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_0_4"
@@ -71,8 +71,8 @@
                 android:background="@color/checker_black"
                 android:clickable="false"
                 android:contentDescription="@string/app_name"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_0_5"
@@ -84,8 +84,8 @@
                 android:contentDescription="@string/app_name"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_0_6"
@@ -94,8 +94,8 @@
                 android:background="@color/checker_black"
                 android:clickable="false"
                 android:contentDescription="@string/app_name"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_0_7"
@@ -107,8 +107,8 @@
                 android:contentDescription="@string/app_name"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
         </LinearLayout>
 
@@ -127,8 +127,8 @@
                 android:contentDescription="@string/app_name"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_1_1"
@@ -137,8 +137,8 @@
                 android:background="@color/checker_black"
                 android:clickable="false"
                 android:contentDescription="@string/app_name"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_1_2"
@@ -149,8 +149,8 @@
                 android:contentDescription="@string/app_name"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_1_3"
@@ -159,8 +159,8 @@
                 android:background="@color/checker_black"
                 android:clickable="false"
                 android:contentDescription="@string/app_name"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_1_4"
@@ -171,8 +171,8 @@
                 android:contentDescription="@string/app_name"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_1_5"
@@ -181,8 +181,8 @@
                 android:background="@color/checker_black"
                 android:clickable="false"
                 android:contentDescription="@string/app_name"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_1_6"
@@ -193,8 +193,8 @@
                 android:contentDescription="@string/app_name"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_1_7"
@@ -203,8 +203,8 @@
                 android:background="@color/checker_black"
                 android:clickable="false"
                 android:contentDescription="@string/app_name"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
         </LinearLayout>
 
@@ -220,8 +220,8 @@
                 android:layout_height="40dp"
                 android:clickable="false"
                 android:background="@color/checker_black"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_2_1"
@@ -232,8 +232,8 @@
                 android:focusable="true"
 
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_2_2"
@@ -241,8 +241,8 @@
                 android:layout_height="40dp"
                 android:clickable="false"
                 android:background="@color/checker_black"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_2_3"
@@ -252,8 +252,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_2_4"
@@ -261,8 +261,8 @@
                 android:layout_height="40dp"
                 android:clickable="false"
                 android:background="@color/checker_black"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_2_5"
@@ -272,8 +272,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_2_6"
@@ -281,8 +281,8 @@
                 android:layout_height="40dp"
                 android:clickable="false"
                 android:background="@color/checker_black"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_2_7"
@@ -292,8 +292,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
         </LinearLayout>
 
@@ -311,8 +311,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_3_1"
@@ -320,9 +320,9 @@
                 android:layout_height="40dp"
                 android:clickable="false"
                 android:background="@color/checker_black"
-                app:layout_columnWeight="1"
+                android:layout_columnWeight="1"
 
-                app:layout_rowWeight="1" />
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_3_2"
@@ -332,8 +332,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_3_3"
@@ -341,8 +341,8 @@
                 android:layout_height="40dp"
                 android:clickable="false"
                 android:background="@color/checker_black"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_3_4"
@@ -352,8 +352,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_3_5"
@@ -362,8 +362,8 @@
                 android:background="@color/checker_black"
                 android:clickable="false"
                 android:contentDescription="@string/app_name"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_3_6"
@@ -373,8 +373,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_3_7"
@@ -382,8 +382,8 @@
                 android:layout_height="40dp"
                 android:clickable="false"
                 android:background="@color/checker_black"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
         </LinearLayout>
 
@@ -399,8 +399,8 @@
                 android:layout_height="40dp"
                 android:clickable="false"
                 android:background="@color/checker_black"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_4_1"
@@ -411,8 +411,8 @@
                 android:focusable="true"
 
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_4_2"
@@ -421,8 +421,8 @@
                 android:background="@color/checker_black"
                 android:clickable="false"
                 android:contentDescription="@string/app_name"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_4_3"
@@ -432,8 +432,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_4_4"
@@ -441,8 +441,8 @@
                 android:layout_height="40dp"
                 android:clickable="false"
                 android:background="@color/checker_black"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_4_5"
@@ -452,8 +452,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_4_6"
@@ -461,8 +461,8 @@
                 android:layout_height="40dp"
                 android:clickable="false"
                 android:background="@color/checker_black"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_4_7"
@@ -472,8 +472,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
         </LinearLayout>
 
@@ -491,8 +491,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_5_1"
@@ -501,8 +501,8 @@
                 android:background="@color/checker_black"
                 android:clickable="false"
                 android:contentDescription="@string/app_name"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_5_2"
@@ -512,8 +512,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_5_3"
@@ -521,8 +521,8 @@
                 android:layout_height="40dp"
                 android:clickable="false"
                 android:background="@color/checker_black"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_5_4"
@@ -532,8 +532,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_5_5"
@@ -541,8 +541,8 @@
                 android:layout_height="40dp"
                 android:clickable="false"
                 android:background="@color/checker_black"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_5_6"
@@ -552,8 +552,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_5_7"
@@ -561,8 +561,8 @@
                 android:layout_height="40dp"
                 android:clickable="false"
                 android:background="@color/checker_black"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
         </LinearLayout>
 
@@ -578,8 +578,8 @@
                 android:layout_height="40dp"
                 android:clickable="false"
                 android:background="@color/checker_black"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_6_1"
@@ -590,8 +590,8 @@
                 android:contentDescription="@string/app_name"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_6_2"
@@ -599,8 +599,8 @@
                 android:layout_height="40dp"
                 android:clickable="false"
                 android:background="@color/checker_black"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_6_3"
@@ -610,8 +610,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_6_4"
@@ -619,8 +619,8 @@
                 android:layout_height="40dp"
                 android:clickable="false"
                 android:background="@color/checker_black"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_6_5"
@@ -630,8 +630,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_6_6"
@@ -639,8 +639,8 @@
                 android:layout_height="40dp"
                 android:clickable="false"
                 android:background="@color/checker_black"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_6_7"
@@ -650,8 +650,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
         </LinearLayout>
 
@@ -669,8 +669,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_7_1"
@@ -680,8 +680,8 @@
                 android:clickable="false"
                 android:contentDescription="@string/app_name"
 
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_7_2"
@@ -691,8 +691,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_7_3"
@@ -700,8 +700,8 @@
                 android:layout_height="40dp"
                 android:clickable="false"
                 android:background="@color/checker_black"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_7_4"
@@ -711,8 +711,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_7_5"
@@ -720,8 +720,8 @@
                 android:layout_height="40dp"
                 android:clickable="false"
                 android:background="@color/checker_black"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_7_6"
@@ -731,8 +731,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="myOnClick"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
             <ImageButton
                 android:id="@+id/ibtn_7_7"
@@ -740,8 +740,8 @@
                 android:layout_height="40dp"
                 android:clickable="false"
                 android:background="@color/checker_black"
-                app:layout_columnWeight="1"
-                app:layout_rowWeight="1" />
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
 
         </LinearLayout>
 
