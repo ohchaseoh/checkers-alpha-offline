@@ -69,7 +69,8 @@
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_0_2"
