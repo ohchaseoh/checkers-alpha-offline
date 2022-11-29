@@ -209,7 +209,6 @@ public class MainActivity extends AppCompatActivity {
         disableButtons();
     }
 
-
     public void myOnClick(View view) {
         if (turn) {//BlackChecker's turn
             if(secondClick == false) {//(first click)
@@ -437,9 +436,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                     }
                 }
-
             }
-
         }
     }
 
@@ -449,7 +446,7 @@ public class MainActivity extends AppCompatActivity {
                 for (int c = 0; c < checkerList[r].length; c++) {
                     if (checkerList[r][c] instanceof RedChecker) {//if the checker is red (disable all the redCheckers)
                         imageButtonList[r][c].setClickable(false);
-                        //imageButtonList[r][c].setBackgroundColor(Color.BLACK);
+                        imageButtonList[r][c].setBackgroundColor(Color.BLACK);
                     }
                     else if(checkerList[r][c] instanceof BlackChecker){//disable the unmovable blackCheckers
                         if(r == 0){//if the blackChecker is at row 0 (crown)
@@ -515,7 +512,7 @@ public class MainActivity extends AppCompatActivity {
                     } else {//if the checkerList updates ex: one red checker died, need to update the corresponding image button to not clickable
                         if (imageButtonList[r][c] != null) {
                             imageButtonList[r][c].setClickable(false);
-                            //imageButtonList[r][c].setBackgroundColor(Color.BLACK);
+                            imageButtonList[r][c].setBackgroundColor(Color.BLACK);
                         }
                     }
                 }
@@ -581,7 +578,7 @@ public class MainActivity extends AppCompatActivity {
                             }
                         }
                     }
-                    imageButtonList[r][c].setBackgroundColor(Color.parseColor("#c9af98"));//set the desirable background color
+                    imageButtonList[r][c].setBackgroundColor(getResources().getColor(R.color.checker_tan));//set the desirable background color
                 }
             }
         }
