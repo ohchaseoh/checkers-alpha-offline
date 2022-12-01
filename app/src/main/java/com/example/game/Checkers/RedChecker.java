@@ -10,6 +10,7 @@ public class RedChecker extends Checker {
 
     public RedChecker(int row, int column) {
         super(row, column);
+        setColorNum(1);
     }
 
     public RedChecker(Checker redChecker) {
@@ -175,7 +176,6 @@ public class RedChecker extends Checker {
         }
     }
 
-
     @Override
     public ArrayList<int[]> getMove2(Checker[][] checkerList) {
 
@@ -318,5 +318,3 @@ public class RedChecker extends Checker {
         return killList;
     }
 }
-
-

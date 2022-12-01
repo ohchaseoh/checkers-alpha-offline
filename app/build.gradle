@@ -7,7 +7,7 @@ android {
     buildToolsVersion '32.0.0'
 
     defaultConfig {
-        applicationId "com.example.checkers.alpha.offline"
+        applicationId "com.example.checkers"
         minSdk 22
         targetSdk 32
         versionCode 1

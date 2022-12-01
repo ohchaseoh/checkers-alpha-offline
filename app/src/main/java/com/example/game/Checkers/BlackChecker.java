@@ -10,6 +10,7 @@ public class BlackChecker extends Checker {
 
     public BlackChecker(int row, int column){
         super(row,column);
+        setColorNum(0);
     }
 
     public BlackChecker (Checker blackChecker){
@@ -322,5 +323,4 @@ public class BlackChecker extends Checker {
     public ArrayList <int[]> getKillList(){
         return killList;
     }
-
 }
