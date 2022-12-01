@@ -29,6 +29,7 @@ public class CheckersLocalGame extends LocalGame {
 
     @Override
     protected boolean canMove(int playerIdx) {
+
         return false;
     }
 
