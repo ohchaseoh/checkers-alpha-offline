@@ -110,10 +110,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        //setContentView(R.layout.checkers_human_player1);
 
         //row 1
-        ibtn_0_0 = (ImageButton) findViewById(R.id.ibtn00);
+        ibtn_0_0 = (ImageButton) findViewById(R.id.ibtn_0_0);
         ibtn_0_1 = (ImageButton) findViewById(R.id.ibtn_0_1);
         ibtn_0_2 = (ImageButton) findViewById(R.id.ibtn_0_2);
         ibtn_0_3 = (ImageButton) findViewById(R.id.ibtn_0_3);

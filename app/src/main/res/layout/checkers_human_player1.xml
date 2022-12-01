@@ -49,7 +49,7 @@
                     android:orientation="horizontal">
 
                     <ImageButton
-                        android:id="@+id/ibtn00"
+                        android:id="@+id/ibtn_0_0"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_rowWeight="1"

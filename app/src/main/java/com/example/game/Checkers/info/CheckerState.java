@@ -8,7 +8,9 @@ import java.io.Serializable;
  * @authors Alex, Chase, Mohammad
  */
 
-public class CheckerState extends GameState implements Serializable{
+public class CheckerState extends GameState implements Serializable {
+
+    private static final String TAG = "CheckerState";
     public static final int MAX_PLAYERS = 2;
 
     public CheckerState() {
