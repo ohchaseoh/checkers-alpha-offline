@@ -1,4 +1,4 @@
-package com.example.checkers.alpha.offline;
+package com.example.game;
 
 import android.util.Pair;
 import android.view.View;
