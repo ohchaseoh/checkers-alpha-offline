@@ -28,6 +28,6 @@ public class CheckersComputerPlayer extends GameComputerPlayer {
 
     @Override
     protected void receiveInfo(GameInfo info) {
-
+        
     }
 }
