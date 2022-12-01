@@ -15,6 +15,7 @@ import java.util.ArrayList;
 //TODO 1. Edit DisableAllbuttonButOne or update
 //TODO 2. Create an alertdialog after either side is winning; asking user to either restart the game or go back to the main menu
 
+//mohammad
 public class MainActivity extends AppCompatActivity {
 
     public ImageButton [][] imageButtonList;
