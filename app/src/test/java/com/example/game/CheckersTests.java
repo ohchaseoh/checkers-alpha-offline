@@ -73,9 +73,9 @@ public class CheckersTests {
     public void test_CopyConstructorOfState_InProgress(){
         CheckerState checkerState = new CheckerState();
         checkerState.setWhoseMove(1);
-        checkerState.setPiece(3,0, checkerState.getPiece(3,0));
-        checkerState.setPiece(4,1, checkerState.getPiece(4,1));
-        checkerState.setPiece(3,4, checkerState.getPiece(3,4));
+        checkerState.setPiece(3,0, checkerState.getPiece(2,1));
+        checkerState.setPiece(4,1, checkerState.getPiece(5,0));
+        checkerState.setPiece(3,4, checkerState.getPiece(2,3));
         CheckerState copyState = new CheckerState(checkerState);
         assertTrue("Copy Constructor did not produce equal States", checkerState.equals(copyState));
     }
