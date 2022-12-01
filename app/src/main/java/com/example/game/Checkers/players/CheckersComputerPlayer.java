@@ -32,12 +32,14 @@ public class CheckersComputerPlayer extends GameComputerPlayer {
         super(name);
         this.isSmart =  isSmart;
     }
-//red = 1
-//black = 0
+
+    //black = 0
+    //red = 1
     @Override
     protected void receiveInfo(GameInfo info) {
         //all the pieces that can move on the computer side of the game
-        //
+        /*
+
         ArrayList<Object> availablePieces = new ArrayList<>();
         for (int i = 0; i < 8; i++){
             for(int k = 0; k < 8; k++){
@@ -53,7 +55,7 @@ public class CheckersComputerPlayer extends GameComputerPlayer {
                 } else if (playerNum == 1 && c.pieceColor() == Piece.ColorType.BLACK) {
                     availablePieces.add(c);
                 }
-//black and red each checker doesn't have attached color assigned to it. both red and black are checkers don't have colors assigned to them.
+                    //black and red each checker doesn't have attached color assigned to it. both red and black are checkers don't have colors assigned to them.
                     //reference image button,
             }
         }
@@ -78,9 +80,11 @@ public class CheckersComputerPlayer extends GameComputerPlayer {
             }
         } else if (selection.getPieceColor() == Piece.ColorType.RED){
             if (yVal == 0) {
-                sendPromotionAction(xVal, yVal, Piece.ColorType.RED;
+                sendPromotionAction(xVal, yVal, Piece.ColorType.RED);
             }
         }
         game.sendAction(new CheckerMoveAction(this, xVal, yVal));
+
+         */
     }
 }
