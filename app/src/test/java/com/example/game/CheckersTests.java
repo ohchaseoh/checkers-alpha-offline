@@ -9,6 +9,7 @@ import org.junit.runner.RunWith;
 import org.robolectric.Robolectric;
 import org.robolectric.RobolectricTestRunner;
 
+
 import com.example.game.GameFramework.action.MyNameIsAction;
 import com.example.game.GameFramework.action.ReadyAction;
 import com.example.game.GameFramework.players.GamePlayer;
@@ -51,7 +52,39 @@ public class CheckersTests {
             checkersLocalGame.sendAction(new ReadyAction(gp));
         }
 
+        GamePlayer player1 = gamePlayers[0];
+        GamePlayer player2 = gamePlayers[1];
 
+
+
+    }
+
+    //Tests focused on the state: copy constructors and equals
+    //This tests the copy constructor when nothing is set
+    @Test
+    public void test_CopyConstructorOfState_Empty(){
+        CheckerState checkerState = new CheckerState();
+        CheckerState copyState = new CheckerState(checkerState);
+        assertTrue("Copy Constructor did not produce equal States", checkerState.equals(copyState));
+    }
+
+    //Make state that looks like a game that'd be in progress
+    @Test
+    public void test_CopyConstructorOfState_InProgress(){
+        CheckerState checkerState = new CheckerState();
+        checkerState.setWhoseMove(1);
+        checkerState.setPiece(3,0, checkerState.getPiece(3,0));
+        checkerState.setPiece(4,1, checkerState.getPiece(4,1));
+        checkerState.setPiece(3,4, checkerState.getPiece(3,4));
+        CheckerState copyState = new CheckerState(checkerState);
+        assertTrue("Copy Constructor did not produce equal States", checkerState.equals(copyState));
+    }
+
+    @Test
+    public void test_Equals_State_Empty(){
+        CheckerState checkerState = new CheckerState();
+        CheckerState otherState = new CheckerState();
+        assertTrue("Equals method did not agree the States where equal",checkerState.equals(otherState));
     }
 
 
