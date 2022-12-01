@@ -21,12 +21,12 @@
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textColor="#E6E6E6"
-            android:textSize="34sp"
+            android:textSize="60dp"
             android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="380dp"
+            android:layout_height="620dp"
             android:orientation="horizontal">
 
             <Space
@@ -50,8 +50,8 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_0_0"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
@@ -60,8 +60,8 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_0_1"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:adjustViewBounds="false"
@@ -74,8 +74,8 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_0_2"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
@@ -84,8 +84,8 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_0_3"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:adjustViewBounds="false"
@@ -93,12 +93,13 @@
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_0_4"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
@@ -107,8 +108,8 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_0_5"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:adjustViewBounds="false"
@@ -116,12 +117,13 @@
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_0_6"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
@@ -130,8 +132,8 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_0_7"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:adjustViewBounds="false"
@@ -139,7 +141,8 @@
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                 </LinearLayout>
 
@@ -151,20 +154,21 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_1_0"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_1_1"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
@@ -173,20 +177,21 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_1_2"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_1_3"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
@@ -195,20 +200,21 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_1_4"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_1_5"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
@@ -217,20 +223,21 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_1_6"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_1_7"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
@@ -247,59 +254,42 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_2_0"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
-                        android:clickable="false" />
+                        android:clickable="false"
+                        android:contentDescription="@string/app_name" />
 
                     <ImageButton
                         android:id="@+id/ibtn_2_1"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
 
-                        android:clickable="true"
-                        android:focusable="true"
-                        android:onClick="myOnClick" />
-
-                    <ImageButton
-                        android:id="@+id/ibtn_2_2"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
-                        android:layout_rowWeight="1"
-                        android:layout_columnWeight="1"
-                        android:background="@color/checker_black"
-                        android:clickable="false" />
-
-                    <ImageButton
-                        android:id="@+id/ibtn_2_3"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
-                        android:layout_rowWeight="1"
-                        android:layout_columnWeight="1"
-                        android:background="@color/checker_tan"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
                     <ImageButton
-                        android:id="@+id/ibtn_2_4"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:id="@+id/ibtn_2_2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
-                        android:clickable="false" />
+                        android:clickable="false"
+                        tools:ignore="SpeakableTextPresentCheck" />
 
                     <ImageButton
-                        android:id="@+id/ibtn_2_5"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:id="@+id/ibtn_2_3"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
@@ -307,12 +297,35 @@
                         android:contentDescription="@string/app_name"
                         android:focusable="true"
                         android:onClick="myOnClick"
-                        tools:ignore="SpeakableTextPresentCheck" />
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <ImageButton
+                        android:id="@+id/ibtn_2_4"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:background="@color/checker_black"
+                        android:clickable="false"
+                        android:contentDescription="@string/app_name" />
+
+                    <ImageButton
+                        android:id="@+id/ibtn_2_5"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:background="@color/checker_tan"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:focusable="true"
+                        android:onClick="myOnClick"
+                        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_2_6"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
@@ -321,15 +334,16 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_2_7"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                 </LinearLayout>
 
@@ -341,19 +355,21 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_3_0"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
                         android:clickable="true"
+                        android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_3_1"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
@@ -363,20 +379,21 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_3_2"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_3_3"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
@@ -385,20 +402,21 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_3_4"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_3_5"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
@@ -407,24 +425,26 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_3_6"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_3_7"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
-                        android:clickable="false" />
+                        android:clickable="false"
+                        android:contentDescription="@string/app_name" />
 
                 </LinearLayout>
 
@@ -436,17 +456,18 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_4_0"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
-                        android:clickable="false" />
+                        android:clickable="false"
+                        android:contentDescription="@string/app_name" />
 
                     <ImageButton
                         android:id="@+id/ibtn_4_1"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
@@ -454,12 +475,13 @@
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_4_2"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
@@ -468,40 +490,44 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_4_3"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
-                        android:layout_rowWeight="1"
-                        android:layout_columnWeight="1"
-                        android:background="@color/checker_tan"
-                        android:clickable="true"
-                        android:focusable="true"
-                        android:onClick="myOnClick" />
-
-                    <ImageButton
-                        android:id="@+id/ibtn_4_4"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
-                        android:layout_rowWeight="1"
-                        android:layout_columnWeight="1"
-                        android:background="@color/checker_black"
-                        android:clickable="false" />
-
-                    <ImageButton
-                        android:id="@+id/ibtn_4_5"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <ImageButton
+                        android:id="@+id/ibtn_4_4"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:background="@color/checker_black"
+                        android:clickable="false"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <ImageButton
+                        android:id="@+id/ibtn_4_5"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:background="@color/checker_tan"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:focusable="true"
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_4_6"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
@@ -510,15 +536,16 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_4_7"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                 </LinearLayout>
 
@@ -530,19 +557,21 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_5_0"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
                         android:clickable="true"
+                        android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_5_1"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
@@ -551,20 +580,21 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_5_2"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_5_3"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
@@ -573,44 +603,49 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_5_4"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_5_5"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
-                        android:clickable="false" />
+                        android:clickable="false"
+                        android:contentDescription="@string/app_name" />
 
                     <ImageButton
                         android:id="@+id/ibtn_5_6"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
                         android:clickable="true"
+                        android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_5_7"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
-                        android:clickable="false" />
+                        android:clickable="false"
+                        android:contentDescription="@string/app_name" />
 
                 </LinearLayout>
 
@@ -622,29 +657,31 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_6_0"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
-                        android:clickable="false" />
+                        android:clickable="false"
+                        android:contentDescription="@string/app_name" />
 
                     <ImageButton
                         android:id="@+id/ibtn_6_1"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_6_2"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
@@ -653,19 +690,21 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_6_3"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
                         android:clickable="true"
+                        android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_6_4"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
@@ -674,19 +713,20 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_6_5"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
                         android:clickable="true"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_6_6"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
@@ -695,15 +735,16 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_6_7"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                 </LinearLayout>
 
@@ -715,20 +756,21 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_7_0"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_7_1"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
@@ -738,40 +780,43 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_7_2"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_7_3"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
-                        android:clickable="false" />
+                        android:clickable="false"
+                        tools:ignore="SpeakableTextPresentCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_7_4"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
                         android:clickable="true"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_7_5"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
@@ -780,24 +825,26 @@
 
                     <ImageButton
                         android:id="@+id/ibtn_7_6"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_tan"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
                         android:focusable="true"
-                        android:onClick="myOnClick" />
+                        android:onClick="myOnClick"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageButton
                         android:id="@+id/ibtn_7_7"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:background="@color/checker_black"
-                        android:clickable="false" />
+                        android:clickable="false"
+                        android:contentDescription="@string/app_name" />
 
                 </LinearLayout>
 
@@ -813,38 +860,42 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="top"
+            android:layout_weight="0"
+            android:gravity="center"
             android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/p1view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight=".5"
                 android:gravity="center"
-                android:text="P1: 8"
-                android:textSize="20sp"
+                android:text="P1: 12"
+                android:textSize="60dp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/p2view"
-                android:layout_width="wrap_content"
+                android:layout_width="155dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight=".5"
                 android:gravity="center"
-                android:text="P2: 8"
-                android:textSize="20sp"
+                android:text="P2: 12"
+                android:textSize="60dp"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/restart_button"
-                android:backgroundTint="@color/checker_bg3"
-                android:layout_width="wrap_content"
+                android:layout_width="25dp"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
+                android:layout_marginRight="30dp"
                 android:layout_weight="1"
-                android:text="Restart" />
+                android:backgroundTint="@color/checker_bg3"
+                android:singleLine="true"
+                android:text="Restart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
 
         </LinearLayout>
 

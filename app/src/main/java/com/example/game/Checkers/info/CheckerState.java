@@ -70,9 +70,9 @@ public class CheckerState extends GameState implements Serializable {
     public void setWhoseMove(int id) {
         playerToMove = id;
     }
-
-
+    /*
     public boolean equals(Object object){
+
         if(! (object instanceof CheckerState)) return false;
         CheckerState checkerState = (CheckerState) object;
         for (int i = 0; i < 8; i++) {
@@ -87,5 +87,7 @@ public class CheckerState extends GameState implements Serializable {
             return false;
         }
         return true;
+
     }
+     */
 }
