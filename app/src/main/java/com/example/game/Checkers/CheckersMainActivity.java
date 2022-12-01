@@ -21,7 +21,7 @@ import java.util.ArrayList;
 public class CheckersMainActivity extends GameMainActivity {
 
     private static final String TAG = "CheckersMainActivity";
-    private static final int PORT_NUMBER = 2278;
+    public static final int PORT_NUMBER = 2278;
 
     @Override
     public GameConfig createDefaultConfig() {
