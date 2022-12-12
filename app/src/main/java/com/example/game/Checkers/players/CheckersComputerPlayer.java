@@ -2,9 +2,11 @@ package com.example.game.Checkers.players;
 
 import com.example.game.Checkers.BlackChecker;
 import com.example.game.Checkers.Checker;
+import com.example.game.Checkers.CheckersMoveAction;
 import com.example.game.Checkers.RedChecker;
 import com.example.game.Checkers.info.CheckerState;
 import com.example.game.GameFramework.info.GameInfo;
+import com.example.game.GameFramework.info.GameState;
 import com.example.game.GameFramework.players.GameComputerPlayer;
 
 import java.util.ArrayList;
@@ -35,21 +37,27 @@ public class CheckersComputerPlayer extends GameComputerPlayer {
 
     //black = 0
     //red = 1
+    /*
     @Override
     protected void receiveInfo(GameInfo info) {
         //all the pieces that can move on the computer side of the game
-        /*
+
+        if (! (info instanceof GameState)){
+            return;
+        }
+
+        sleep(1);
+        CheckerState state = (CheckerState) info;
 
         ArrayList<Object> availablePieces = new ArrayList<>();
         for (int i = 0; i < 8; i++){
             for(int k = 0; k < 8; k++){
-                if (CheckerState.checkerList(i, k) == 1){
+                if (state.checkerList(i, k) == 1){
                     return;
                 }
-                if (CheckerState.board(i, k) == 3){
-                    sleep(1);
+                if (state.board(i, k) == 3){
                 }
-                Checker c = CheckerState.getPiece(i, k);
+                Checker c = state.getPiece(i, k);
                 if (playerNum == 0 && c.pieceColor() == Piece.ColorType.RED){
                     availablePieces.add(c);
                 } else if (playerNum == 1 && c.pieceColor() == Piece.ColorType.BLACK) {
@@ -74,17 +82,23 @@ public class CheckersComputerPlayer extends GameComputerPlayer {
 
         xVal = BlackChecker.getX().get(ints.get(0));
         yVal = RedChecker.getY().get(ints.get(0));
-        if (selection.getPieceColor() == Piece.ColorType.BLACK){
-            if (yVal == 7){
-                sendPromotionAction(xVal, yVal, Piece.ColorType.BLACK);
-            }
-        } else if (selection.getPieceColor() == Piece.ColorType.RED){
-            if (yVal == 0) {
-                sendPromotionAction(xVal, yVal, Piece.ColorType.RED);
-            }
-        }
-        game.sendAction(new CheckerMoveAction(this, xVal, yVal));
+        //if (selection.getPieceColor() == Piece.ColorType.BLACK){
+            //if (yVal == 7){
+                //sendPromotionAction(xVal, yVal, Piece.ColorType.BLACK);
+            //}
+        //} else if (selection.getPieceColor() == Piece.ColorType.RED){
+            //if (yVal == 0) {
+                //game.sendAction(new PromotionAction(this, xVal, yVal, Piece.ColorType.RED));
+            //}
+        //}
 
-         */
+        //make sure that its turn
+        //asks if its not turn don't do anyhting
+
+            game.sendAction(new CheckersMoveAction(this, xVal, yVal));
+
+
     }
+
+     */
 }

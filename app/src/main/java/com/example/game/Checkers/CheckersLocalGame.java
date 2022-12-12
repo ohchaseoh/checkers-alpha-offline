@@ -12,8 +12,6 @@ import com.example.game.GameFramework.players.GamePlayer;
  */
 public class CheckersLocalGame extends LocalGame {
 
-   //The master game state of which all player game states are copies
-    private CheckerState gameState;
 
     /**
      * Sends the updated game state to the specified player.
@@ -22,24 +20,59 @@ public class CheckersLocalGame extends LocalGame {
      */
     @Override
     protected void sendUpdatedStateTo(GamePlayer p) {
-        if(this.gameState == null) {
-            this.gameState = new CheckerState();
+        if(this.state == null) {
+            this.state = new CheckerState();
         }
     }
 
     @Override
     protected boolean canMove(int playerIdx) {
-
+        CheckerState theState = (CheckerState)state;
+        if (theState.getWhoseMove() == playerIdx){
+            return true;
+        }
         return false;
     }
 
     @Override
     protected String checkIfGameOver() {
+        //return a string if game is over.
+        //else return null
+
         return null;
     }
 
     @Override
     protected boolean makeMove(GameAction action) {
+        //this.state is the GameState
+        CheckerState theState = (CheckerState)state;
+        if(action instanceof CheckersMoveAction)
+        {
+            CheckersMoveAction theAction = (CheckersMoveAction) action;
+            //if valid, is it this player's turn?
+            GamePlayer p = theAction.getPlayer();
+            int playerIndex = getPlayerIdx(p);
+            if (canMove(playerIndex)) {
+
+
+                int toX = theAction.getToX();
+                int toY = theAction.getToY();
+                int fromX = theAction.getFromX();
+                int fromY = theAction.getFromY();
+                //find piece to be moved
+                char thePiece = theState.getPiece(fromX, fromY);
+                //check that the piece can move to the toX, toY
+                //TODO
+                //if yes, then update the state, if not return false
+
+                // TODO: update state
+                theState.setPiece(fromX, fromY, ' ');
+                theState.setPiece(toX, toY, thePiece);
+                return true;
+                //return true
+            }
+        }
+
         return false;
     }
 }
