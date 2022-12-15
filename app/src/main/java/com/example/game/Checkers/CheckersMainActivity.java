@@ -8,9 +8,11 @@ import com.example.game.GameFramework.util.*;
 import com.example.game.GameFramework.config.GameConfig;
 import com.example.game.GameFramework.config.GamePlayerType;
 
+
 import com.example.game.Checkers.info.CheckerState;
 import com.example.game.Checkers.players.CheckersComputerPlayer;
 import com.example.game.Checkers.players.CheckersHumanPlayer;
+import com.example.game.R;
 
 import java.util.ArrayList;
 
@@ -32,7 +34,11 @@ public class CheckersMainActivity extends GameMainActivity {
         playerTypes.add(new GamePlayerType("Human (Local)") {
             @Override
             public GamePlayer createPlayer(String name) {
-                return new CheckersHumanPlayer(name);
+
+              //  return new CheckersHumanPlayer(name);
+
+                return new CheckersHumanPlayer(name, R.layout.checkers_human_player1);
+
             }
         });
 
