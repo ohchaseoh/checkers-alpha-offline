@@ -16,14 +16,14 @@ import java.util.ArrayList;
 //TODO 2. Create an alertdialog after either side is winning; asking user to either restart the game or go back to the main menu
 
 //mohammad
-*/
+
 public class MainActivity extends AppCompatActivity {
-    public Checker[][] checkerList;
+   // public Checker[][] checkerList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.checkers_human_player1);
+       // setContentView(R.layout.checkers_human_player1);
 
 
     }

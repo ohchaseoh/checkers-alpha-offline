@@ -32,10 +32,8 @@ public class CheckersMainActivity extends GameMainActivity {
         ArrayList<GamePlayerType> playerTypes = new ArrayList<>();
 
         playerTypes.add(new GamePlayerType("Human (Local)") {
-            @Override
             public GamePlayer createPlayer(String name) {
-
-              //  return new CheckersHumanPlayer(name);
+                //return new CheckersHumanPlayer(name);
 
                 return new CheckersHumanPlayer(name, R.layout.checkers_human_player1);
 
@@ -43,14 +41,14 @@ public class CheckersMainActivity extends GameMainActivity {
         });
 
         playerTypes.add(new GamePlayerType("Computer (Dumb)") {
-            @Override
+
             public GamePlayer createPlayer(String name) {
                 return new CheckersComputerPlayer(name, false);
             }
         });
 
         playerTypes.add(new GamePlayerType("Computer (Smart)") {
-            @Override
+
             public GamePlayer createPlayer(String name) {
                 return new CheckersComputerPlayer(name, true);
             }
@@ -58,17 +56,32 @@ public class CheckersMainActivity extends GameMainActivity {
 
         //Create the game configuration object with the max and min number of players
         //and the game name and add the default players to it
-        GameConfig defaultConfig = new GameConfig(playerTypes, 1,
+        GameConfig defaultConfig = new GameConfig(playerTypes, 2,
                 CheckerState.MAX_PLAYERS, "Checkers", PORT_NUMBER);
 
-        defaultConfig.addPlayer("Joe", 0);
-        defaultConfig.addPlayer("Goofy", 1);
+        defaultConfig.addPlayer("Human", 0);
+        defaultConfig.addPlayer("Computer", 2);
+
+        //Set the initial information for the remote player
+        defaultConfig.setRemoteData("Remote Player", "", 1);
         return defaultConfig;
     }
 
+    /**
+     * createLocalGame
+     *
+     * Creates a new game that runs on the server tablet
+     * @param gameState
+     *              The desired gameState to start at or null for new game
+     *
+     * @return a new, game-specific instance of a sub-class of the LocalGame class
+     */
     @Override
     public LocalGame createLocalGame(GameState gameState) {
-        return new CheckersLocalGame();
+        if(gameState == null) {
+            return new CheckersLocalGame();
+        }
+        return new CheckersLocalGame((CheckerState) gameState);
     }
 
     /**
