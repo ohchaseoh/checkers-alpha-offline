@@ -12,6 +12,32 @@ import com.example.game.GameFramework.players.GamePlayer;
  */
 public class CheckersLocalGame extends LocalGame {
 
+    //Tag for logging
+    private static final String TAG = "CheckersLocalGame";
+    protected int moveCount;
+
+
+    public Checker[][] checkerList;
+    /**
+     * Constructor for the CheckersLocalGame
+     */
+    public CheckersLocalGame() {
+        //perform superclass initialization
+        super();
+
+        //create a new, unfilled-in CheckerState object
+        super.state = new CheckerState();
+    }
+
+    /**
+     * Constructor for the CheckersLocalGame with loaded CheckerState
+     * @param gameState
+     */
+    public CheckersLocalGame(CheckerState gameState) {
+        super();
+        super.state = new CheckerState(gameState);
+    }
+
 
     /**
      * Sends the updated game state to the specified player.
@@ -20,9 +46,11 @@ public class CheckersLocalGame extends LocalGame {
      */
     @Override
     protected void sendUpdatedStateTo(GamePlayer p) {
-        if(this.state == null) {
-            this.state = new CheckerState();
-        }
+        //make a copy of the state and send it to the player
+        p.sendInfo(new CheckerState((CheckerState) state));
+      //  if(this.state == null) {
+         //   this.state = new CheckerState();
+      //  }
     }
 
     @Override
@@ -39,6 +67,7 @@ public class CheckersLocalGame extends LocalGame {
         //return a string if game is over.
         //else return null
 
+        CheckerState state = (CheckerState) super.state;
         return null;
     }
 
@@ -63,6 +92,9 @@ public class CheckersLocalGame extends LocalGame {
                 char thePiece = theState.getPiece(fromX, fromY);
                 //check that the piece can move to the toX, toY
                 //TODO
+                if(theState.getPiece(fromX, fromY) != ' ') {
+                    return false;
+                }
                 //if yes, then update the state, if not return false
 
                 // TODO: update state
@@ -75,4 +107,11 @@ public class CheckersLocalGame extends LocalGame {
 
         return false;
     }
+
+   /* public int whoWon() {
+        String gameOver = checkIfGameOver();
+        if(gameOver == null || gameOver.equals(""))
+    }
+
+    */
 }

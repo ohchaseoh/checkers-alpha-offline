@@ -14,13 +14,14 @@ import java.io.Serializable;
 public class CheckerState extends GameState implements Serializable {
 
     private static final String TAG = "CheckerState";
+    private static final long serialVersionUID = 7552321013488624386L;
     public static final int MAX_PLAYERS = 2;
 
-
+    // the 8x8 array of char
     private char[][] board;
     public Checker[][] checkerList;
 
-
+    // int that tells whose move it is
     private int playerToMove;
 
     public CheckerState() {
@@ -57,6 +58,7 @@ public class CheckerState extends GameState implements Serializable {
         playerToMove = orig.playerToMove;
         super.numSetupTurns = orig.numSetupTurns;
         super.currentSetupTurn = orig.currentSetupTurn;
+        this.checkerList = orig.checkerList;
     }
 
     public char getPiece(int row, int col) {
@@ -67,6 +69,13 @@ public class CheckerState extends GameState implements Serializable {
         // return the character that is in the proper position
         return board[row][col];
     }
+
+    /**
+     * Sets a piece on a square
+     * @param row the row being queried
+     * @param col the column being queried
+     * @param piece the piece to place
+     */
 
     public void setPiece(int row, int col, char piece) {
         // if we're out of bounds or anything, return;
@@ -81,33 +90,33 @@ public class CheckerState extends GameState implements Serializable {
         return checkerList;
     }
 
-    //Tells whos move it is
+    //Tells whose move it is
     public int getWhoseMove() {
         return playerToMove;
     }
 
-    //Set whos move it is
+    //Set whose move it is
     public void setWhoseMove(int id) {
         playerToMove = id;
     }
-    /*
+
     public boolean equals(Object object){
 
         if(! (object instanceof CheckerState)) return false;
         CheckerState checkerState = (CheckerState) object;
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 8; j++) {
-                if(this.board[i][j] != CheckerState.board[i][j]){
+                if(this.board[i][j] != checkerState.board[i][j]){
                     return false;
                 }
             }
         }
 
-        if (this.playerToMove != CheckerState.playerToMove || this.numSetupTurns != CheckerState.numSetupTurns || this.currentSetupTurn != CheckerState.currentSetupTurn){
+        if (this.playerToMove != checkerState.playerToMove || this.numSetupTurns != checkerState.numSetupTurns || this.currentSetupTurn != checkerState.currentSetupTurn){
             return false;
         }
         return true;
 
     }
-     */
+
 }
