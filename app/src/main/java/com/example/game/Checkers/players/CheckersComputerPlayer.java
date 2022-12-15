@@ -1,5 +1,7 @@
 package com.example.game.Checkers.players;
 
+import android.graphics.Point;
+
 import com.example.game.Checkers.BlackChecker;
 import com.example.game.Checkers.Checker;
 import com.example.game.Checkers.CheckersMoveAction;
@@ -35,24 +37,36 @@ public class CheckersComputerPlayer extends GameComputerPlayer {
         this.isSmart =  isSmart;
     }
 
+
+
+
+
     //black = 0
     //red = 1
-    /*
+
     @Override
     protected void receiveInfo(GameInfo info) {
         //all the pieces that can move on the computer side of the game
 
-        if (! (info instanceof GameState)){
+        if (!(info instanceof GameState)){
+            //Do nothing if we don't receive a game state
             return;
         }
 
-        sleep(1);
+
         CheckerState state = (CheckerState) info;
+
+        //if its not our move, ignore it
+        if(state.getWhoseMove() != this.playerNum) return;
+
+        sleep(1);
+
+/*
 
         ArrayList<Object> availablePieces = new ArrayList<>();
         for (int i = 0; i < 8; i++){
             for(int k = 0; k < 8; k++){
-                if (state.checkerList(i, k) == 1){
+                if (state.(i, k) == 1){
                     return;
                 }
                 if (state.board(i, k) == 3){
@@ -97,8 +111,8 @@ public class CheckersComputerPlayer extends GameComputerPlayer {
 
             game.sendAction(new CheckersMoveAction(this, xVal, yVal));
 
-
+*/
     }
 
-     */
+
 }

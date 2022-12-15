@@ -8,6 +8,10 @@ import com.example.game.GameFramework.GameMainActivity;
 import com.example.game.GameFramework.info.GameInfo;
 import com.example.game.GameFramework.players.GameHumanPlayer;
 import com.example.game.R;
+import com.example.game.GameFramework.util.Logger;
+import com.example.game.GameFramework.info.NotYourTurnInfo;
+import com.example.game.GameFramework.info.IllegalMoveInfo;
+import android.widget.Toast;
 
 import android.app.Activity;
 import android.graphics.Color;
@@ -40,6 +44,12 @@ public class CheckersHumanPlayer extends GameHumanPlayer {
     public boolean disableAllButOneButton = false;
 
     private Button restart;
+
+    /**
+     * A reference to the last toast that was popped up when the player made an invalid
+     * move, or null if no toasts have popped up yet.
+     */
+    Toast lastToast;
 
     //row 1
     public ImageButton ibtn_0_0;
@@ -135,15 +145,33 @@ public class CheckersHumanPlayer extends GameHumanPlayer {
         layoutId = ID;
     }
 
+    /**
+     * returns the GUI's top view
+     * @return the GUI's top view
+     */
     @Override
     public View getTopView() {
-        return null;
+        return myActivity.findViewById(R.id.top_gui_layout);
     }
 
     @Override
     public void receiveInfo(GameInfo info) {
+
         //TODO: render the state
         //TODO
+        if(!(info instanceof CheckerState)) {
+            if (this.lastToast != null) {
+                this.lastToast.cancel();
+            }
+        String message = (info instanceof NotYourTurnInfo || info instanceof IllegalMoveInfo )?
+                "It's not your turn." :
+                "That move's invalid";
+
+        this.lastToast = Toast.makeText(this.activity.getApplicationContext(),
+                message, Toast.LENGTH_SHORT);
+        this.lastToast.show();
+        return;
+        }
         if (info instanceof CheckerState){
             state = (CheckerState)info;
             checkerList = state.getCheckerList();
